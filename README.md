@@ -77,3 +77,44 @@ Isolation Forest
 Local Outlier Factor
    ↓
 Visualization & Comparison
+
+📈 Visualizations
+
+The project includes visualizations for:
+
+K-Means customer clusters
+DBSCAN clusters and noise points
+Isolation Forest anomalies
+LOF anomalies
+Comparison of detected anomalies
+🚀 How to Run
+1. Clone the repository
+git clone https://github.com/Saisruti-Mohanty/Customer-Segmentation-Anomaly-Detection.git
+2. Open the project folder
+cd Customer-Segmentation-Anomaly-Detection
+3. Install required libraries
+pip install pandas numpy matplotlib scikit-learn jupyter
+4. Open the notebook
+jupyter notebook Customer_Segmentation.ipynb
+
+Run the notebook cells to reproduce the analysis.
+
+📁 Project Structure
+Customer-Segmentation-Anomaly-Detection/
+│
+├── Customer_Segmentation.ipynb
+├── Mall_Customers.csv
+├── .gitignore
+├── LICENSE
+└── README.md
+🎯 Future Improvements
+Build an interactive Streamlit application
+Allow users to upload their own datasets
+Compare anomaly detection algorithms interactively
+Add anomaly scoring
+Create an automated customer analysis report
+👩‍💻 Author
+
+Saisruti Mohanty
+
+B.Tech – Computer Science and Data Science
